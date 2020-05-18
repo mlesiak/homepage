@@ -1,3 +1,9 @@
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .header1 {
   color: #fc940d;
 }
