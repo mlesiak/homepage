@@ -9,26 +9,32 @@
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="html.html">Nauka HTML</a>
-        <a href="css.html">Nauka CSS</a>
-        <a href="js.html">Nauka JavaScript</a>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link" href="html.html">Nauka HTML</a>
+        <a class="navigation__link" href="css.html">Nauka CSS</a>
+        <a class="navigation__link" href="js.html">Nauka JavaScript</a>
       </nav>
     </header>
 
-    <main>
+    <main class="main">
       <header>
-        <h1 class="header1">Podstrona 2</h1>
+        <h1 class="main__tittle">Nauka CSS</h1>
+        <img class="main__image" src="obraz3.jpg" />
       </header>
 
-      <img src="obraz3.jpg" height="200px" />
+      <section class="notes">
+        <h2 class="notes__tittle">Notatki z WTF : Co ten frontend</h2>
+      </section>
 
       <section>
-        <h2 class="header2">Notatki z WTF : Co ten frontend</h2>
-        <article>
-          <h3 class="header3">Czego nauczyłem się w poniedziałek?</h3>
-          <p>
+        <article class="summary">
+          <h3 class="summary__tittle">
+            Czego nauczyłem się w poniedziałek?
+          </h3>
+          <p class="summary__description">
             Jeśli chodzi o samo programowanie to nic nowego, wszystko
             przeszedłem wcześniej podczas nauki własnej. Otoczka frontendu to
             dla mnie nowość. Jeśli chodzi o samo programowanie to nic nowego,
@@ -38,9 +44,11 @@
             wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
             frontendu to dla mnie nowość
           </p>
+        </article>
 
-          <h3 class="header3">Czego nauczyłem się we wtorek?</h3>
-          <p>
+        <article class="summary">
+          <h3 class="summary__tittle">Czego nauczyłem się we wtorek?</h3>
+          <p class="summary__description">
             Cóż, ponownie - Jeśli chodzi o samo programowanie to nic nowego,
             wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
             frontendu to dla mnie nowość.Jeśli chodzi o samo programowanie to
@@ -50,9 +58,11 @@
             nic nowego, wszystko przeszedłem wcześniej podczas nauki własnej.
             Otoczka frontendu to dla mnie nowość
           </p>
+        </article>
 
-          <h3 class="header3">Czego nauczyłem się w środę?</h3>
-          <p>
+        <article class="summary">
+          <h3 class="summary__tittle">Czego nauczyłem się w środę?</h3>
+          <p class="summary__description">
             Cóż, ponownie - Jeśli chodzi o samo programowanie to nic nowego,
             wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
             frontendu to dla mnie nowość.Jeśli chodzi o samo programowanie to
@@ -62,9 +72,11 @@
             nic nowego, wszystko przeszedłem wcześniej podczas nauki własnej.
             Otoczka frontendu to dla mnie nowość
           </p>
+        </article>
 
-          <h3 class="header3">Czego nauczyłem się w czwartek?</h3>
-          <p>
+        <article class="summary">
+          <h3 class="summary__tittle">Czego nauczyłem się w czwartek</h3>
+          <p class="summary__description">
             Cóż, ponownie - Jeśli chodzi o samo programowanie to nic nowego,
             wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
             frontendu to dla mnie nowość.Jeśli chodzi o samo programowanie to

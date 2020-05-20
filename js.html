@@ -9,57 +9,74 @@
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="html.html">Nauka HTML</a>
-        <a href="css.html">Nauka CSS</a>
-        <a href="js.html">Nauka JavaScript</a>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link" href="html.html">Nauka HTML</a>
+        <a class="navigation__link" href="css.html">Nauka CSS</a>
+        <a class="navigation__link" href="js.html">Nauka JavaScript</a>
       </nav>
     </header>
 
-    <main>
+    <main class="main">
       <header>
-        <h1 class="header1">Podstrona 3</h1>
+        <h1 class="main__tittle">Nauka JavaScript</h1>
+        <img class="main__image" src="obraz4.jpg" />
       </header>
 
-      <img src="obraz4.jpg" height="200px" />
+      <section class="notes">
+        <h2 class="notes__tittle">Notatki z WTF : Co ten frontend</h2>
+      </section>
 
       <section>
-        <h2 class="header2">Notatki z WTF : Co ten frontend</h2>
-        <article>
-          <h3 class="header3">Czego nauczyłem się w poniedziałek?</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id dicta
-            vel illum autem ut voluptas omnis, distinctio non ipsum, dolores ex
-            itaque rem voluptatum, repudiandae aperiam quo quas! Sed, est?
+        <article class="summary">
+          <h3 class="summary__tittle">
+            Czego nauczyłem się w poniedziałek?
+          </h3>
+          <p class="summary__description">
+            Jeśli chodzi o samo programowanie to nic nowego, wszystko
+            przeszedłem wcześniej podczas nauki własnej. Otoczka frontendu to
+            dla mnie nowość. Jeśli chodzi o samo programowanie to nic nowego,
+            wszystko<br />
+            przeszedłem wcześniej podczas nauki własnej. Otoczka frontendu to
+            dla mnie nowość. Jeśli chodzi o samo programowanie to nic nowego,
+            wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
+            frontendu to dla mnie nowość
           </p>
+        </article>
 
-          <h3 class="header3">Czego nauczyłem się we wtorek?</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            tempore! Rerum, neque at asperiores ad soluta et similique non
-            facilis provident autem unde beatae tempora libero illo quia
-            blanditiis cum?<br />
+        <article class="summary">
+          <h3 class="summary__tittle">Czego nauczyłem się we wtorek?</h3>
+          <p class="summary__description">
+            Cóż, ponownie - Jeśli chodzi o samo programowanie to nic nowego,
+            wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
+            frontendu to dla mnie nowość.Jeśli chodzi o samo programowanie to
+            nic nowego,<br />
             wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
             frontendu to dla mnie nowość. Jeśli chodzi o samo programowanie to
             nic nowego, wszystko przeszedłem wcześniej podczas nauki własnej.
             Otoczka frontendu to dla mnie nowość
           </p>
+        </article>
 
-          <h3 class="header3">Czego nauczyłem się w środę?</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
-            dolorum vel corrupti voluptate quisquam quasi! Consequatur repellat
-            voluptatem dicta. Quos soluta quibusdam impedit vel expedita
-            cupiditate. Nihil nam aspernatur autem!<br />
+        <article class="summary">
+          <h3 class="summary__tittle">Czego nauczyłem się w środę?</h3>
+          <p class="summary__description">
+            Cóż, ponownie - Jeśli chodzi o samo programowanie to nic nowego,
+            wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
+            frontendu to dla mnie nowość.Jeśli chodzi o samo programowanie to
+            nic nowego,<br />
             wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
             frontendu to dla mnie nowość. Jeśli chodzi o samo programowanie to
             nic nowego, wszystko przeszedłem wcześniej podczas nauki własnej.
             Otoczka frontendu to dla mnie nowość
           </p>
+        </article>
 
-          <h3 class="header3">Czego nauczyłem się w czwartek?</h3>
-          <p>
+        <article class="summary">
+          <h3 class="summary__tittle">Czego nauczyłem się w czwartek</h3>
+          <p class="summary__description">
             Cóż, ponownie - Jeśli chodzi o samo programowanie to nic nowego,
             wszystko przeszedłem wcześniej podczas nauki własnej. Otoczka
             frontendu to dla mnie nowość.Jeśli chodzi o samo programowanie to
