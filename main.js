@@ -20,3 +20,9 @@ if (2 ==='2') {
     console.log('Java to nie Javascript')
 }
 
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+})
