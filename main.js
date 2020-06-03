@@ -16,9 +16,6 @@ const greet = (age, firstName) => {
 greet(age, firstName);
 
 
-if (2 ==='2') {
-    console.log('Java to nie Javascript')
-}
 
 const hamburger = document.querySelector('.hamburger--js');
 
