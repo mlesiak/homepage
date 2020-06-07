@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navigation navigation--js">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link" href="html.html">Nauka HTML</a>
+        <a class="navigation__link" href="css.html">Nauka CSS</a>
+        <a class="navigation__link" href="js.html">Nauka JavaScript</a>
+        <a class="navigation__link" href="form.html">Formularz</a>
+      </nav>
+      <button class="hamburger hamburger--js">MENU</button>
+    </header>
+
+    <main class="main">
+      <header>
+        <h1 class="main__tittle">MEGA FORMULARZ</h1>
+      </header>
+
+      <form method="post" action="https://dev.cotenfrontend.pl" class="form">
+        <p><label for="firstName">Your name:</label>
+        <input class="form__input" placeholder="Enter your name" type="text" id="firstName" name="firstName"></p>
+
+        <p><label for="lastName">Your last name:</label>
+        <input class="form__input" placeholder="Enter your last name" type="text" id="lastName" name="lastName"></p>
+
+        <p><label for="phoneNumber">Your phone number:</label>
+        <input class="form__input" placeholder="Enter your phone number" type="tel" id="phoneNumber" name="phoneNumber"></p>
+
+        <p><label for="favouriteNumber">Your favourite number:</label>
+            <input class="form__input" placeholder="Enter your favourite number" type="number" id="favouriteNumber" name="favouriteNumber"></p>
+
+            <p><label for="email">Your email:</label>
+                <input class="form__input" placeholder="Enter your email" type="email" id="email" name="email"></p>
+
+        <fieldset>
+            <legend>Adress</legend>
+        
+        <p><label for="streetName">Street name:</label>
+        <input class="form__input" placeholder="Enter your street name" type="text" id="streetName" name="streetName"></p>
+ 
+        <p><label for="city">City:</label>
+        <input class="form__input" placeholder="Enter your city" type="text" id="City" name="city"></p>
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Favourite ice cream flavour</legend>
+            <p><label><input name="iceCream" type="radio" value="chocolate">Chocolate</label></p>
+            <p><label><input name="iceCream" type="radio" value="strawberry">Strawberry</label></p>
+            <p><label><input name="iceCream" type="radio" value="vanilla">Vanilla</label></p>
+        </fieldset>
+
+        <p><label for="range">Range:</label>
+            <input  type="range" id="range" name="range" min=0 max="100" step="10"></p>
+
+        <p><label for="password">Password:</label>
+        <input class="form__input" placeholder="Enter your password" type="password" id="password" name="password"></p>
+
+        <p><label for="Avatar">Avatar:</label>
+        <input class="form__input" type="file" id="Avatar" name="Avatar"></p>
+
+        <p><label for="band">Pick one band:</label>
+        <select name="band" id="band">
+            <option value="band1">Radiohead</option>
+            <option value="band2">Nirvana</option>
+            <option value="band3">Metalica</option>
+        </select></p>
+        
+        <p><label for="yourStory">Your story:</label>
+            <textarea id="yourStory" name="yourStory">My story is...</textarea>
+        </p>
+
+        <p><label><input name="agreement" checked type="checkbox" value="agree"> I agree</label></p>
+        <p><label><input name="agreement" type="checkbox" value="disagree"> I disagree</label></p>
+
+        <p><label><input name="submit" value="Send form" type="submit"> </label></p>
+
+
+      </form>
+
+
+    </main>
+
+    <footer class="footer">
+      Stopka mojej strony - Michał Lesiak
+    </footer>
+
+    <script src="html.js"></script>
+  </body>
+</html>

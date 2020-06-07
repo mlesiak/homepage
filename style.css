@@ -103,6 +103,15 @@ html {
   right: 16px;
 }
 
+.form {
+
+}
+
+.form__input {
+  display: block;
+  width: 70%;
+}
+
 @media screen and (min-width: 769px) {
   .grid {
     display: grid;
